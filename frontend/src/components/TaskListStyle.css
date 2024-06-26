@@ -1,0 +1,33 @@
+.task-list-container {
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust as per your layout */
+    margin: 0 15%;
+    padding: 20px;
+    align-items: center;
+}
+
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to next line if needed */
+    gap: 20px;
+    /* Adjust spacing between items */
+}
+
+.task-list .card{
+    max-width: 300px;
+}
+
+.task-list>* {
+    flex: 1 1 300px;
+    /* Adjust item width */
+}
+
+
+.add-new-task {
+    margin-top: 10px;
+    /* Adjust spacing between task list and "Add new task" link */
+    text-align: center;
+    /* Center-align the link */
+}
